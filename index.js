@@ -63,17 +63,4 @@ class ArrayList {
   }
 }
 
-const list = new ArrayList();
-list.append('A');
-list.append('B');
-list.append('C');
-console.log(list.length());
-console.log(list.get(1));
-list.insert('D', 1);
-console.log(list.get(1));
-console.log(list.delete(1));
-console.log(list.findFirst('C'));
-list.reverse();
-console.log(list.get(0));
-list.clear();
-console.log(list.length());
+module.exports = ArrayList;
