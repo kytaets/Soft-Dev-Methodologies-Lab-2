@@ -221,12 +221,5 @@ class CircularLinkedList {
     console.log(result + '(back to head)');
   }
 }
-const list = new CircularLinkedList();
-list.append('A');
-list.append('B');
-list.append('C');
-list.print(); // A -> B -> C -> (back to head)
 
-console.log(list.get(1)); // B
-list.reverse();
-list.print(); // C -> B -> A -> (back to head)
+module.exports = CircularLinkedList;
