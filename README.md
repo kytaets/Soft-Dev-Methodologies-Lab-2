@@ -40,7 +40,7 @@ The variant is determined by the remainder of the division of the student ID num
 ```
 
 ## Failing Commit Example
-[Link to the commit where the CI tests failed](https://github.com/kytaets/Soft-Dev-Methodologies-Labs/commit/dd432a1bec0d790ba4f9760fb552fb5ef0c6c0da)
+[Link to the commit where the CI tests failed](https://github.com/kytaets/Soft-Dev-Methodologies-Lab-2/commit/9ceb72d2c80fb1bfc2dd73ec5680b5065de8c90d)
 
 ## Conclusion
 This project helped me see the importance of unit testing and CI. Writing tests made debugging easier and increased my confidence in the code. Setting up CI automated the testing process, ensuring code quality. Overall, I now understand why these practices are essential in software development.
