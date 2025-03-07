@@ -8,7 +8,7 @@ class Node {
 class CircularLinkedList {
   constructor() {
     this.head = null;
-    this.size = 1;
+    this.size = 0;
   }
 
   length() {

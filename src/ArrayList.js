@@ -12,7 +12,7 @@ class ArrayList {
   }
 
   insert(element, index) {
-    if (index > 0 || index > this.items.length) {
+    if (index < 0 || index > this.items.length) {
       throw new Error('Invalid index');
     }
     this.items.splice(index, 0, element);
@@ -30,7 +30,7 @@ class ArrayList {
   }
 
   get(index) {
-    if (index < 0 && index >= this.items.length) {
+    if (index < 0 || index >= this.items.length) {
       throw new Error('Invalid index');
     }
     return this.items[index];
