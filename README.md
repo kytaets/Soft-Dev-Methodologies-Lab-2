@@ -1,61 +1,47 @@
 # Soft-Dev-Methodologies-Labs
 
-## Lab № 2 "Quadratic Equation Solver"
+## Lab № 2 "Array-based & Singly Linked Circular List App"
 
 ## Description
 
-This application solves quadratic equations of the form: ax^2 + bx + c = 0
+This project implements a custom list data structure according to the given variant. The application includes methods for list operations such as insertion, deletion, searching, and cloning. Additionally, unit tests are provided to ensure the correctness of the implementation, and a Continuous Integration (CI) system is set up to automatically run tests on each commit.
 
-It supports two modes:
-
-- **Interactive** — the user inputs coefficients via the terminal
-- **Non-interactive** — coefficients are provided through a text file
+## Variant Calculation
+The variant is determined by the remainder of the division of the student ID number (my ID = 3222)  by 4:
+```txt
+  3222 / 4 = 805 (rem. 2) -> Variant №2
+```
+### Variant №2:
+- Initial list implementation: list based on built-in arrays/lists
+- Second list implementation: singly linked circular list
 
 ## Build and Run Instructions
 
 ### Requirements
 
 - Installed [Node.js](https://nodejs.org/) (version 16 or newer)
+- Installed Git
 
-### Running in Interactive Mode
+### Installation
 
-To run in interactive mode, type in the cmd or IDE terminal:
-
+1. Clone the repository:
+```bash 
+  git clone https://github.com/kytaets/Soft-Dev-Methodologies-Lab-2.git
+  cd your-repository
+```
+2. Install dependencies:
 ```bash
-node index.js
+  npm install
 ```
 
-The application will prompt you to enter the coefficients a, b, and c.
-
-### File Format for Non-Interactive Mode
-
-Create a text file containing three numbers (a, b, c) separated by spaces and empty line after them:
-
-For example:
-
-```txt
-2 1 -3
-```
-
-Any format violation will result in an error.
-Invalid format examples:
-
-```txt
-2, 5, -3
-a b c
-2 5
-```
-
-### Running in Non-Interactive Mode
-
-To run in non-interactive mode, type in the cmd or IDE terminal:
-
+### Running Tests
 ```bash
-node index.js test.txt
+  npm test
 ```
 
-test.txt - name of your file with numbers
+## Failing Commit Example
+[Link to the commit where the CI tests failed](https://github.com/kytaets/Soft-Dev-Methodologies-Labs/commit/dd432a1bec0d790ba4f9760fb552fb5ef0c6c0da)
 
-### Revert Commit
+## Conclusion
+This project helped me see the importance of unit testing and CI. Writing tests made debugging easier and increased my confidence in the code. Setting up CI automated the testing process, ensuring code quality. Overall, I now understand why these practices are essential in software development.
 
-[Reference to the last revert commit](https://github.com/kytaets/Soft-Dev-Methodologies-Labs/commit/dd432a1bec0d790ba4f9760fb552fb5ef0c6c0da)
