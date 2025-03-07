@@ -1,4 +1,4 @@
-const ArrayList = require('./index.js');
+const ArrayList = require('../src/ArrayList');
 
 describe('ArrayList', () => {
   let list;

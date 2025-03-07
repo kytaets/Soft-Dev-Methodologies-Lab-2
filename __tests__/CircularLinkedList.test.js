@@ -1,4 +1,4 @@
-const CircularLinkedList = require('./CircularLinkedList.js');
+const CircularLinkedList = require('../src/CircularLinkedList.js');
 
 describe('CircularLinkedList', () => {
   let list;
